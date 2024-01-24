@@ -32,3 +32,18 @@
 const min=10;
 const max=20;
 console.log(Math.floor(Math.random()*(max-min+1)+min))*/
+
+//let mydate=new Date()
+//console.log(mydate.toDateString());//Tue Jan 23 2024
+//console.log(mydate.toString());//Tue Jan 23 2024 10:50:52 GMT+0000 (Coordinated Universal Time)
+//console.log(mydate.toLocaleTimeString());//10:52:44 AM
+//console.log(mydate.toLocaleString()) //1/23/2024, 10:53:43 AM
+//console.log(mydate.toLocaleDateString())//1/23/2024
+//console.log(mydate.getTimezoneOffset())
+// let mydate=new Date(2023, 15, 23)
+// console.log(mydate.toDateString())//Mon Jan 23 2023
+let myDate=new Date("09-23-2023")//mm//dd/yyyy
+console.log(myDate.toLocaleDateString())
+myDate.toLocaleString('default',{
+    weekday:"long"
+})
