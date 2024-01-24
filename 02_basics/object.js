@@ -12,8 +12,8 @@ let myData={
 // console.log( myData[sym])//string
 myData.email="rishuraushan2000@gmail.com"//email get changed
 console.log(myData)
-Object.freeze(myData.name);
-myData.aage=233;
-console.log(myData)
-
+// Object.freeze(myData.name);//freeze name field
+//Object.freeze(myData);//freeze whole field of myData
+// myData.aage=233;
+// console.log(myData)
 //console.log(myData["My tech Stack"])
