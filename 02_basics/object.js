@@ -4,16 +4,25 @@ let myData={
     aage:22,
     email:"raushanlive2000@gmail.com",
     company:"Xebia",
-    "My tech Stack":["Java","SpringBoot","JavaScript","Mysql","Git"],
+    "My tech Stack":["Java","SpringBoot","JavaScript","Mysql","Git"]
    // [sym]:"Mykey1"
 }
 //console.log(myData)
 //console.log(typeof myData.sym)//string
 // console.log( myData[sym])//string
 myData.email="rishuraushan2000@gmail.com"//email get changed
-console.log(myData)
+// console.log(myData)
 // Object.freeze(myData.name);//freeze name field
 //Object.freeze(myData);//freeze whole field of myData
 // myData.aage=233;
 // console.log(myData)
 //console.log(myData["My tech Stack"])
+//  myData.greeting=function(){
+//     console.log("Hello Js user");
+// }
+// myData.greeting=function(){
+//      console.log(`Hello Js user, ${this.name}`);
+// }
+// console.log(myData.greeting())
+//const newUSer=new Object();//singleton Object
+//const newUSer={};//non Singelton Object
