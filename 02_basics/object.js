@@ -57,3 +57,14 @@ const user ={
 // }
 // console.log(userName());//sam just logged in
 // console.log(userName("hitesh"))//hitesh just logged in
+
+// result1(1)
+// let result1=function(num){
+//     return num+1;
+// }
+// result1(1)
+
+// console.log(addone(1))
+// function addone(num){
+//     return num+1;
+// }
